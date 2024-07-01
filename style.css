@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.header{
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+}
+
+
+
+#logo{
+    color:cornsilk;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 5%;
+    display: flexbox;
+    margin-top: 15%;
+}
+
+
+.nav{
+    padding: 40px 0 0 15px;
+    margin-left: 30%;
+}
+a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+.card-content{
+    display: flexbox;
+}
+
+.cards{
+    /* border: 1px solid black; */
+    padding: 10px 0 10px 20px;
+    display: inline-block;
+    margin-left: 20px;
+    
+
+}
+img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+
+h2{
+    margin: 20px ;
+    margin-left: 45%;
+    font-size: 40px;
+}
+.about_us{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px 10px 20px;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+   
+}
+.num{
+    display: inline-flex;
+    margin-left: 100px;
+}
+#n2{
+      margin-left: 50px;
+}
+.icons{
+    margin: 15px 0 0 200px;
+}
